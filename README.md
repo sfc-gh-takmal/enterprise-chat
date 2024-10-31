@@ -46,11 +46,6 @@ A Next.js-based enterprise-grade Large Language Model (LLM) application that int
    - CONVERSATIONS (conversation_id, user_id, title, model)
    - MESSAGES (message_id, conversation_id, role, content, token_count)
 
-5. **Configure Snowflake stages**
-   Set up the following stages in Snowflake:   ```sql
-   CREATE STAGE LLM_API.CHAT.UNSTRUCTURED_UPLOAD;
-   CREATE STAGE LLM_API.CHAT.STRUCTURED_UPLOAD;   ```
-
 ## Running the Application
 
 1. **Development mode**   ```bash
