@@ -26,7 +26,7 @@ A Next.js-based enterprise-grade Large Language Model (LLM) application that int
 
 2. **Install dependencies**   ```bash
    npm install
-   # or
+   or
    yarn install   ```
 
 3. **Configure environment variables**
